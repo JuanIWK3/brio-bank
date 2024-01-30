@@ -21,7 +21,7 @@ export function Notes() {
     <div className="flex flex-col h-full overflow-auto max-h-full justify-between">
       <h1 className="font-bold">Notes</h1>
 
-      <div className="flex  p-2 flex-col max-h-full overflow-auto">
+      <div className="flex h-full p-2 flex-col max-h-full overflow-auto">
         <form action="" onSubmit={(e) => addNote(e)} className="h-fit">
           <Input
             className="border-gray-300"
